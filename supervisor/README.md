@@ -15,7 +15,7 @@ cd supervisor3.3.0
 # hack hack hack
 
 # build
-docker build -t idoall/supervisor .
+docker build -t idoall/supervisor ./tag
 
 # run
 docker run -it \
